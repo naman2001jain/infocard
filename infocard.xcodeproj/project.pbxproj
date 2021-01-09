@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D9253E763362918A91A15C6 /* Pods_infocard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66398D6B3629DF9BB0413A15 /* Pods_infocard.framework */; };
+		ED88ED1125A6D89D00075599 /* infoPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88ED1025A6D89D00075599 /* infoPlate.swift */; };
 		EDA6021925A09A620078E6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6021825A09A620078E6F6 /* AppDelegate.swift */; };
 		EDA6021B25A09A620078E6F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6021A25A09A620078E6F6 /* SceneDelegate.swift */; };
 		EDA6021D25A09A620078E6F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6021C25A09A620078E6F6 /* ContentView.swift */; };
@@ -15,6 +17,9 @@
 		EDA6022525A09A670078E6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6022325A09A670078E6F6 /* LaunchScreen.storyboard */; };
 		EDA6023025A09A670078E6F6 /* infocardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6022F25A09A670078E6F6 /* infocardTests.swift */; };
 		EDA6023B25A09A670078E6F6 /* infocardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6023A25A09A670078E6F6 /* infocardUITests.swift */; };
+		EDA6024D25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA6024C25A09D180078E6F6 /* Pacifico-Regular.ttf */; };
+		EDA6024E25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA6024C25A09D180078E6F6 /* Pacifico-Regular.ttf */; };
+		EDA6024F25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA6024C25A09D180078E6F6 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32921AFCA15D86FD7076D2EA /* Pods-infocard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infocard.release.xcconfig"; path = "Target Support Files/Pods-infocard/Pods-infocard.release.xcconfig"; sourceTree = "<group>"; };
+		66398D6B3629DF9BB0413A15 /* Pods_infocard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_infocard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA384E884C6BBA923EB074C /* Pods-infocard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infocard.debug.xcconfig"; path = "Target Support Files/Pods-infocard/Pods-infocard.debug.xcconfig"; sourceTree = "<group>"; };
+		ED88ED1025A6D89D00075599 /* infoPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoPlate.swift; sourceTree = "<group>"; };
 		EDA6021525A09A620078E6F6 /* infocard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infocard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA6021825A09A620078E6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA6021A25A09A620078E6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		EDA6023625A09A670078E6F6 /* infocardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infocardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA6023A25A09A670078E6F6 /* infocardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infocardUITests.swift; sourceTree = "<group>"; };
 		EDA6023C25A09A670078E6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA6024C25A09D180078E6F6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9253E763362918A91A15C6 /* Pods_infocard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134D1E5664F53168947AF917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA384E884C6BBA923EB074C /* Pods-infocard.debug.xcconfig */,
+				32921AFCA15D86FD7076D2EA /* Pods-infocard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE97EC50E31AD348EFB2AF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66398D6B3629DF9BB0413A15 /* Pods_infocard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDA6020C25A09A620078E6F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				EDA6022E25A09A670078E6F6 /* infocardTests */,
 				EDA6023925A09A670078E6F6 /* infocardUITests */,
 				EDA6021625A09A620078E6F6 /* Products */,
+				134D1E5664F53168947AF917 /* Pods */,
+				AE97EC50E31AD348EFB2AF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +129,11 @@
 		EDA6021725A09A620078E6F6 /* infocard */ = {
 			isa = PBXGroup;
 			children = (
+				EDA6024B25A09CF10078E6F6 /* fonts */,
 				EDA6021825A09A620078E6F6 /* AppDelegate.swift */,
 				EDA6021A25A09A620078E6F6 /* SceneDelegate.swift */,
 				EDA6021C25A09A620078E6F6 /* ContentView.swift */,
+				ED88ED1025A6D89D00075599 /* infoPlate.swift */,
 				EDA6021E25A09A670078E6F6 /* Assets.xcassets */,
 				EDA6022325A09A670078E6F6 /* LaunchScreen.storyboard */,
 				EDA6022625A09A670078E6F6 /* Info.plist */,
@@ -136,6 +168,14 @@
 			path = infocardUITests;
 			sourceTree = "<group>";
 		};
+		EDA6024B25A09CF10078E6F6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6024C25A09D180078E6F6 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA6023F25A09A670078E6F6 /* Build configuration list for PBXNativeTarget "infocard" */;
 			buildPhases = (
+				24587C9BA49F918DFE488E73 /* [CP] Check Pods Manifest.lock */,
 				EDA6021125A09A620078E6F6 /* Sources */,
 				EDA6021225A09A620078E6F6 /* Frameworks */,
 				EDA6021325A09A620078E6F6 /* Resources */,
+				F616E72A2EAA097C92B52397 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA6022525A09A670078E6F6 /* LaunchScreen.storyboard in Resources */,
+				EDA6024D25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */,
 				EDA6022225A09A670078E6F6 /* Preview Assets.xcassets in Resources */,
 				EDA6021F25A09A670078E6F6 /* Assets.xcassets in Resources */,
 			);
@@ -249,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA6024E25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,16 +300,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA6024F25A09D180078E6F6 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24587C9BA49F918DFE488E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-infocard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F616E72A2EAA097C92B52397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-infocard/Pods-infocard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-infocard/Pods-infocard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-infocard/Pods-infocard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDA6021125A09A620078E6F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED88ED1125A6D89D00075599 /* infoPlate.swift in Sources */,
 				EDA6021925A09A620078E6F6 /* AppDelegate.swift in Sources */,
 				EDA6021B25A09A620078E6F6 /* SceneDelegate.swift in Sources */,
 				EDA6021D25A09A620078E6F6 /* ContentView.swift in Sources */,
@@ -433,6 +521,7 @@
 		};
 		EDA6024025A09A670078E6F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA384E884C6BBA923EB074C /* Pods-infocard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +542,7 @@
 		};
 		EDA6024125A09A670078E6F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32921AFCA15D86FD7076D2EA /* Pods-infocard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
